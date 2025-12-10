@@ -1,0 +1,198 @@
+Which button makes alphabets/letters in uppercase and lowercase and numbers to symbols?
+Shift
+When a computer is switched on, the booting process performs__?
+Power on self test
+What is the software frequently utilized by end users called (like Word, PowerPoint)?
+Application Software
+Unit of measurement of the output quality of a printer?
+Dot per sq. inch
+Switching device of fifth generation computer is__?
+VLSI
+The unit KIPS is used to measure the speed of __?
+Processor
+DOS stands for__?
+Disk Operating System
+What is a joystick primarily used for?
+Computer Gaming
+In 1999, the Melissa virus was a widely publicised__?
+E-mail virus
+COBOL is an acronym for__?
+Common Business Oriented Language
+The ability of an OS to run more than one application at a time is called?
+Multitasking
+What is the functional key to display save-as box?
+F12
+Full form of NOS ?
+Network Operating System
+Something which has easily understood instructions is said to be..........?
+Analog Data
+A modem is connected to a__?
+Telephone Line
+Refresh Rate of monitor is measured in?
+Hertz
+What was the chief component of first generation computer?
+Vacuum tube & Valves
+Who is the father of Computer science?
+Charles Babbage
+In a computer, most processing takes place in__?
+CPU
+In which type of computer are data represented as discrete signals?
+Digital Computer
+A computer cannot boot if it does not have the__?
+Operating System
+What is the other name for programmed chip?
+LSIC
+A normal CD-ROM usually can store up to _____ data?
+680 MB
+What does DMA stand for?
+Direct Memory Access
+Full form of LAN?
+Local Area Network
+ASCII stands for__?
+American Standard Code for Information Interchange
+Scientific Name of Computer?
+Sillico sapiens
+What is the display feature that highlights areas requiring operator attention?
+Reverse Video
+Computers that combine both measuring and counting are called__?
+Hybrid Computer
+Name the Father of Computer Mouse?
+Douglas Engelbart
+A program that performs a useful task while simultaneously allowing destructive acts is __?
+Trojan Horse
+The geometric arrangement of devices on a network is called__?
+Topology
+The basic goal of computer process is to convert data into ___?
+Information
+Where are the CPU and memory located?
+Motherboard
+Who is the founder of IBM Company?
+Thomas J. Watson
+An image on a computer screen is made up of__?
+Pixels
+Full form of MAN?
+Metropolitan Area Network
+Which command in DOS can recover accidentally deleted files?
+UNDELETE
+A computer program that converts an entire program into machine language at one time is called__?
+Compiler
+In which year was Microsoft founded?
+1975
+What is the operating system that organizes and uses a graphic desktop environment?
+Windows
+What are Light pen and joystick?
+Input Devices
+What is a half byte also called?
+Nibble
+SMPS stands for__?
+Switched Mode Power Supply
+What do we use to change the appearance and positioning of text in MS Word?
+Formatting
+When did IBM and Apple decide to join hands?
+1991
+What kind of memory is static and non-volatile?
+ROM
+What is another jargon for a bug?
+Glitch
+Unwanted repetitious messages such as bulk e-mail are known as__?
+Spam
+The crime of stealing passwords is called__?
+Spoofing
+BIOS stands for __?
+Basic Input Output System
+Who is regarded as Father of C Programming Language?
+Dennis Ritchie
+RAM can be treated as the ......... for the computer's processor.
+Waiting Room
+Manipulation of data by computer is called__?
+Processing
+Joshy, Perfumes are examples of __?
+Viruses
+Recovering and reading deleted/damaged files from a criminal's computer is called__?
+Computer Forensics
+Where does most data go first in memory hierarchy?
+RAM
+Help Menu is available at which button?
+Start
+Which file contains permanent data updated during processing?
+Master File
+A DVD is an example of__?
+Optical Disc
+Which is the most common tool to restrict access to computers?
+Passwords
+The technology storing only essential instructions on a microprocessor is called__?
+RISC
+What application gathers user info and sends it secretly?
+Spybot
+A ________ is approximately a million bytes?
+Megabyte
+Daisy wheel, Drum, Chain etc are__?
+Printers
+XML stands for __?
+Extensible Markup Language
+What is FORTRAN?
+Formula Translation
+What translates and executes program line by line?
+Interpreter
+Who is the father of personal computer?
+Edward Robert
+EEPROM stands for__?
+Electronic Erasable Programmable Read Only Memory
+Who developed the first electronic computer?
+J.V. Atansoff
+Which programming languages are low level?
+Assembly Language
+The first web browser is__?
+Mosaic
+First page of a Website is termed as__?
+Homepage
+IBM stands for__?
+International Business Machines
+Office LANs across long distance are connected using__?
+WAN
+Copying a file from one computer to another over communication channel is called__?
+File Transfer
+Large transaction processing systems use__?
+Batch Processing
+MICR stands for__?
+Magnetic Ink Character Reader
+Name of 1st electronic computer?
+ENIAC
+No. of different characters in ASCII coding system?
+1024
+MSIC stands for__?
+Medium Scale Integrated Circuits
+The scrambling of code is known as__?
+Encryption
+The first computers were programmed using__?
+Machine Language
+A fault in a program that prevents execution is called__?
+Bug
+HTTP protocol follows which scheme?
+Request/Response
+Magnetic disk is an example of__?
+Secondary Memory
+What does OSI mean?
+Open System Interconnection
+Which type of storage device is BIOS?
+Primary
+What is the extension of Excel 2007 files?
+.xlsx
+Posing as another individual online is called__?
+Identity theft
+Vertical space between lines of text is called__?
+Line Spacing
+Second Generation computers were developed during__?
+1956-65
+Which command is given to reboot the computer?
+Ctrl+Alt+Del
+Correcting errors in a program is called__?
+Debugging
+BCD is __?
+Binary Coded Decimal
+What type of virus uses hosts to reproduce?
+Worm
+SMTP, FTP and DNS are applications of which layer?
+Application Layer
+Which command selects the whole document?
+Ctrl+A
