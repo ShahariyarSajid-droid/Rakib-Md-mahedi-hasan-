@@ -1,0 +1,95 @@
+import random
+
+def read_question_bank(path):
+    """Reads the question bank file and returns list of (question, answer) pairs."""
+    try:
+        with open(path, "r", encoding="utf-8") as file:
+            lines = [line.strip() for line in file.readlines()]
+        
+        qa_pairs = []
+        for i in range(0, len(lines), 2):
+            # Each question is followed by its answer
+            question = lines[i]
+            if i + 1 < len(lines):
+                answer = lines[i + 1]
+            else:
+                answer = "No answer provided"
+            qa_pairs.append((question, answer))
+
+        return qa_pairs
+    
+    except FileNotFoundError:
+        print("❌ Error: Could not find the question bank file. Please check the path.")
+        return None
+
+
+def create_exam(questions, num, output_path):
+    """Randomly selects 'num' question-answer pairs and saves them to a file."""
+    selected = random.sample(questions, num)
+
+    with open(output_path, "w", encoding="utf-8") as file:
+        for i, (q, a) in enumerate(selected, start=1):
+            file.write(f"Q{i}: {q}\n")
+            file.write(f"Answer: {a}\n\n")
+    return True
+
+
+def main():
+    print("========== Professor Assistant ==========\n")
+
+    # 1 — Ask professor name
+    prof_name = input("Please enter your name: ").strip()
+    print(f"\nHello Professor {prof_name}! Welcome to the Professor Assistant.\n")
+
+    # 2 — Ask for question bank path
+    question_bank_path = input("Please enter the path to your question bank file: ").strip()
+
+    # Attempt to read question bank
+    questions = read_question_bank(question_bank_path)
+    if not questions:
+        print("Program terminated due to errors.")
+        return
+
+    # 3 — Exam creation loop
+    while True:
+        choice = input("\nWould you like to create an exam? (yes/no): ").lower().strip()
+
+        if choice == "no":
+            print(f"\nGoodbye Professor {prof_name}! Have a great day!")
+            break
+
+        elif choice == "yes":
+            print(f"\nGreat! Let's create your exam, Professor {prof_name}.\n")
+
+            # Re-enter question bank path (as required by instructions)
+            question_bank_path = input("Enter the question bank path again: ").strip()
+            questions = read_question_bank(question_bank_path)
+            if not questions:
+                print("Unable to read question bank. Try again.")
+                continue
+
+            # Get number of questions
+            while True:
+                try:
+                    num_questions = int(input("How many questions do you want in the exam? "))
+                    if num_questions <= 0 or num_questions > len(questions):
+                        print(f"Please choose a number between 1 and {len(questions)}.")
+                    else:
+                        break
+                except ValueError:
+                    print("Please enter a valid number.")
+
+            # Output file name
+            output_file = input("Enter the output file name (e.g., exam1.txt): ").strip()
+
+            # Create exam
+            create_exam(questions, num_questions, output_file)
+
+            print(f"\n🎉 Your exam has been successfully created and saved in '{output_file}'.")
+
+        else:
+            print("Please answer with 'yes' or 'no' only.")
+
+
+# Run the program
+main()
